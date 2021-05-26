@@ -48,6 +48,6 @@ while(True):
     test_pred = clf.predict(test_sample)
     print("Predicted class is: ", test_pred)
     cv2.imshow('frame',gray)
-    cv2.waitKey(0)
+    cv2.waitKey(42)
 cap.release()
 cv2.destroyAllWindows()
